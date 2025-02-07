@@ -33,7 +33,6 @@
 29. Datepicker
 30. Scroll back to top
 31. Contact Form
-32. Slider Grid Background
 
 ----------------------------------------------------------- */
 $(function () {
@@ -62,7 +61,7 @@ $(function () {
             logo = $(".navbar .logo> img");
         if (bodyScroll > 100) {
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo-light.png');
+            logo.attr('src', 'img/logo-dark.png');
         } else {
             navbar.removeClass("nav-scroll");
             logo.attr('src', 'img/logo-light.png');
@@ -668,7 +667,6 @@ $(function () {
         }).done(done_func).fail(fail_func);
     });
 });
-
 
    // Slider Grid Background
     (function () {
